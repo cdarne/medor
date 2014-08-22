@@ -20,37 +20,37 @@ type Channel struct {
 	Link        string `xml:"link"`
 
 	// optional
-	Language        string     `xml:"language"`
-	PublicationDate RFC822Time `xml:"pubDate"`
-	LastBuildDate   RFC822Time `xml:"lastBuildDate"`
-	TTL             int        `xml:"ttl"`
-	Copyright       string     `xml:"copyright"`
-	ManagingEditor  string     `xml:"managingEditor"`
-	WebMaster       string     `xml:"webMaster"`
+	Language        string `xml:"language"`
+	PublicationDate Time   `xml:"pubDate"`
+	LastBuildDate   Time   `xml:"lastBuildDate"`
+	TTL             int    `xml:"ttl"`
+	Copyright       string `xml:"copyright"`
+	ManagingEditor  string `xml:"managingEditor"`
+	WebMaster       string `xml:"webMaster"`
 
 	Items []Item `xml:"item"`
 }
 
 type Item struct {
-	XMLName         xml.Name   `xml:"item"`
-	Title           string     `xml:"title"`
-	Description     string     `xml:"description"`
-	Link            string     `xml:"link"`
-	PublicationDate RFC822Time `xml:"pubDate"`
-	Categories      []string   `xml:"category"`
+	XMLName         xml.Name `xml:"item"`
+	Title           string   `xml:"title"`
+	Description     string   `xml:"description"`
+	Link            string   `xml:"link"`
+	PublicationDate Time     `xml:"pubDate"`
+	Categories      []string `xml:"category"`
 }
 
-func NewRSSFrom(data []byte) (rss *RSS, err error) {
+func NewRSSFromXML(data []byte) (rss *RSS, err error) {
 	rss = new(RSS)
 	err = xml.Unmarshal(data, rss)
 	return
 }
 
-type RFC822Time time.Time
+type Time time.Time
 
 var timeFormats = [...]string{time.RFC822, time.RFC822Z, time.RFC1123, time.RFC1123Z}
 
-func (t *RFC822Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) (err error) {
+func (t *Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) (err error) {
 	var str string
 	var parsedTime time.Time
 
@@ -69,10 +69,10 @@ func (t *RFC822Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) (err e
 		return err
 	}
 
-	*t = (RFC822Time)(parsedTime)
+	*t = (Time)(parsedTime)
 	return nil
 }
 
-func (t RFC822Time) String() string {
+func (t Time) String() string {
 	return (time.Time)(t).String()
 }

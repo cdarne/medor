@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Cédric subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="Hack" title="Hack">
+            <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="http://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+            <outline type="rss" text="Lifehacker" title="Lifehacker" xmlUrl="http://feeds.gawker.com/lifehacker/full" htmlUrl="http://lifehacker.com"/>
+        </outline>
+        <outline text="Mac" title="Mac">
+            <outline type="rss" text="One Thing Well" title="One Thing Well" xmlUrl="http://onethingwell.org/rss" htmlUrl="http://onethingwell.org/"/>
+            <outline type="rss" text="Consomac - Les news" title="Consomac - Les news" xmlUrl="http://consomac.fr/rss/consomac.xml" htmlUrl="http://consomac.fr"/>
+            <outline type="rss" text="MacBidouille.com" title="MacBidouille.com" xmlUrl="http://feeds.macbidouille.com/macbidouille/" htmlUrl="http://www.macbidouille.com"/>
+            <outline type="rss" text="Mac4Ever.com" title="Mac4Ever.com" xmlUrl="http://rss.mac4ever.com/news.rss" htmlUrl="http://www.mac4ever.com/actu"/>
+        </outline>
+        <outline text="Mobile" title="Mobile">
+            <outline type="rss" text="Android Developers Blog" title="Android Developers Blog" xmlUrl="http://feeds.feedburner.com/blogspot/hsDu" htmlUrl="http://android-developers.blogspot.com/"/>
+            <outline type="rss" text="FrAndroid Communauté Android" title="FrAndroid Communauté Android" xmlUrl="http://feeds.feedburner.com/frandroid" htmlUrl="http://www.frandroid.com"/>
+            <outline type="rss" text="Android-France" title="Android-France" xmlUrl="http://android-france.fr/feed/" htmlUrl="http://android-france.fr"/>
+            <outline type="rss" text="Unity Technologies Blog" title="Unity Technologies Blog" xmlUrl="http://blogs.unity3d.com/feed/" htmlUrl="http://blogs.unity3d.com"/>
+        </outline>
+        <outline text="Lol" title="Lol">
+            <outline type="rss" text="xkcd.com" title="xkcd.com" xmlUrl="http://xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+            <outline type="rss" text="The Oatmeal - Comics, Quizzes, &amp; Stories" title="The Oatmeal - Comics, Quizzes, &amp; Stories" xmlUrl="http://feeds.feedburner.com/oatmealfeed" htmlUrl="http://theoatmeal.com/"/>
+            <outline type="rss" text="Cinemassacre Productions" title="Cinemassacre Productions" xmlUrl="http://feeds2.feedburner.com/Cinemassacrecom" htmlUrl="http://cinemassacre.com"/>
+        </outline>
+        <outline text="Linux" title="Linux">
+            <outline type="rss" text="DLFP - Dépêches" title="DLFP - Dépêches" xmlUrl="http://linuxfr.org/backend/news/rss20.rss"/>
+            <outline type="rss" text="Omg! Ubuntu!" title="Omg! Ubuntu!" xmlUrl="http://feeds.feedburner.com/d0od" htmlUrl="http://www.omgubuntu.co.uk"/>
+            <outline type="rss" text="Phoronix" title="Phoronix" xmlUrl="http://feeds.feedburner.com/Phoronix" htmlUrl="http://www.phoronix.com/"/>
+            <outline type="rss" text="Planet Ubuntu Francophone" title="Planet Ubuntu Francophone" xmlUrl="http://planet.ubuntu-fr.org/feed/rss2" htmlUrl="http://planet.ubuntu-fr.org/aggregator"/>
+            <outline type="rss" text="UNIX Garden" title="UNIX Garden" xmlUrl="http://www.unixgarden.com/index.php/feed" htmlUrl="http://www.unixgarden.com"/>
+            <outline type="rss" text="Accueil - LinuxFr.org" title="Accueil - LinuxFr.org" xmlUrl="http://linuxfr.org/news.atom" htmlUrl="http://linuxfr.org/news"/>
+        </outline>
+        <outline text="Listen Subscriptions" title="Listen Subscriptions">
+            <outline type="rss" text="Ruby5" title="Ruby5" xmlUrl="http://feeds.feedburner.com/Ruby5" htmlUrl="http://ruby5.envylabs.com/"/>
+            <outline type="rss" text="The Changelog - Open Source moves fast. Keep up." title="The Changelog - Open Source moves fast. Keep up." xmlUrl="http://feeds.feedburner.com/thechangelog" htmlUrl="http://thechangelog.com"/>
+            <outline type="rss" text="Ruby Rogues" title="Ruby Rogues" xmlUrl="http://rubyrogues.com/feed/" htmlUrl="http://rubyrogues.com"/>
+        </outline>
+        <outline text="Web dev" title="Web dev">
+            <outline type="rss" text="How To Node" title="How To Node" xmlUrl="http://howtonode.org/feed.xml" htmlUrl="http://howtonode.org"/>
+            <outline type="rss" text="DailyJS" title="DailyJS" xmlUrl="http://feeds.feedburner.com/dailyjs" htmlUrl="http://dailyjs.com"/>
+            <outline type="rss" text="CSS-Tricks" title="CSS-Tricks" xmlUrl="http://feeds2.feedburner.com/CssTricks" htmlUrl="http://css-tricks.com"/>
+        </outline>
+        <outline text="Ruby" title="Ruby">
+            <outline type="rss" text="Rails Tutorial News" title="Rails Tutorial News" xmlUrl="http://feeds.feedburner.com/railstutorial" htmlUrl="http://news.railstutorial.org/"/>
+            <outline type="rss" text="Katz Got Your Tongue?" title="Katz Got Your Tongue?" xmlUrl="http://yehudakatz.com/feed/" htmlUrl="http://yehudakatz.com"/>
+            <outline type="rss" text="Heroku" title="Heroku" xmlUrl="http://feeds2.feedburner.com/heroku" htmlUrl="http://blog.heroku.com"/>
+            <outline type="rss" text="ASCIIcasts - Latest Episodes" title="ASCIIcasts - Latest Episodes" xmlUrl="http://asciicasts.com/episodes.xml" htmlUrl="http://asciicasts.com/"/>
+            <outline type="rss" text="makandra notes" title="makandra notes" xmlUrl="http://makandra.com/notes/feed.rss" htmlUrl="http://makandracards.com/makandra"/>
+            <outline type="rss" text="Ruby Inside" title="Ruby Inside" xmlUrl="http://feeds.feedburner.com/RubyInside" htmlUrl="http://www.rubyinside.com"/>
+            <outline type="rss" text="giant robots smashing into other giant robots" title="giant robots smashing into other giant robots" xmlUrl="http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots" htmlUrl="http://robots.thoughtbot.com"/>
+            <outline type="rss" text="The Changelog - Open Source moves fast. Keep up." title="The Changelog - Open Source moves fast. Keep up." xmlUrl="http://feeds.feedburner.com/thechangelog" htmlUrl="http://thechangelog.com"/>
+            <outline type="rss" text="Ruby Quicktips" title="Ruby Quicktips" xmlUrl="http://feeds.feedburner.com/RubyQuicktips" htmlUrl="http://rubyquicktips.com/"/>
+            <outline type="rss" text="Planet Ruby" title="Planet Ruby" xmlUrl="http://planetruby.0x42.net/rss20.xml" htmlUrl="http://planetruby.0x42.net/"/>
+            <outline type="rss" text="Khaled alHabache's official blog" title="Khaled alHabache's official blog" xmlUrl="http://feeds.feedburner.com/khelll/Hrvm" htmlUrl="http://blog.khd.me"/>
+            <outline type="rss" text="Rails Inside" title="Rails Inside" xmlUrl="http://feeds.feedburner.com/RailsInside" htmlUrl="http://www.railsinside.com"/>
+            <outline type="rss" text="Ruby Best Practices" title="Ruby Best Practices" xmlUrl="http://blog.rubybestpractices.com/feed.xml" htmlUrl="http://blog.rubybestpractices.com/"/>
+            <outline type="rss" text="RubyLearning Blog" title="RubyLearning Blog" xmlUrl="http://feeds.feedburner.com/LearningRubyBlog" htmlUrl="http://rubylearning.com/blog"/>
+            <outline type="rss" text="Latest Tips on HandyRailsTips.com" title="Latest Tips on HandyRailsTips.com" xmlUrl="http://feeds2.feedburner.com/LatestTipsOnHandyrailstipscom" htmlUrl="http://handyrailstips.com"/>
+            <outline type="rss" text="RailsTips by John Nunemaker" title="RailsTips by John Nunemaker" xmlUrl="http://feeds.feedburner.com/railstips" htmlUrl="http://railstips.org/blog/"/>
+            <outline type="rss" text="Rails Illustrated" title="Rails Illustrated" xmlUrl="http://feeds.feedburner.com/railsillustrated/HCTH" htmlUrl="http://www.railsillustrated.com"/>
+        </outline>
+    </body>
+</opml>

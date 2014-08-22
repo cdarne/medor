@@ -15,7 +15,7 @@ func main() {
 		logger.Fatal(err)
 	}
 
-	rssObj, err := rss.NewRSSFrom(data)
+	rssObj, err := rss.NewRSSFromXML(data)
 
 	if err != nil {
 		logger.Fatal(err)
